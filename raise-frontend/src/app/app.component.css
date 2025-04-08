@@ -1,0 +1,5 @@
+.content {
+    flex: 1;
+    padding: 20px 20px 20px 30px; /* Top Right Bottom Left - increased left padding */
+    margin-left: 10px; /* Additional space between sidebar and content */
+  }

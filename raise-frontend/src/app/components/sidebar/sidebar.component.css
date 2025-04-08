@@ -1,0 +1,39 @@
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+  
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.sidebar ul li {
+    margin-bottom: 15px; 
+}
+  
+.sidebar ul li a {
+    display: block; /* Makes the entire area clickable */
+    padding: 8px 12px; /* Adds padding around the text */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px; /* Increased font size */
+    border-radius: 4px; /* Rounded corners */
+    transition: all 0.2s ease; 
+}
+  
+.sidebar ul li a:hover {
+    color: #007BFF;
+    background-color: #e9ecef; 
+}
+
+.active {
+    color: #007BFF !important;
+    font-weight: bold;
+    background-color: #e9ecef;
+}
